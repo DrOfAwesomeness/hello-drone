@@ -1,0 +1,15 @@
+{
+  "name": "hello-drone",
+  "version": "1.0.0",
+  "description": "A test application for the Drone CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "author": "Matthew East",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.0"
+  }
+}
